@@ -1,7 +1,11 @@
-def soma(a, b):
-    return a + b
+def fibonassei(f):
+    a, b = 0, 1
 
-s = soma(2,3)
+    for _ in range(f):
+        print(a)
+        a,b = b, a +b
+        c = b / a
+        print(c)
 
-print(s)
-    
+
+fibonassei(20) 
