@@ -5,7 +5,7 @@ def fibonassei(f):
         print(a)
         a,b = b, a +b
         c = b / a
-        print(c)
+        println(a)
 
 
 fibonassei(20) 
